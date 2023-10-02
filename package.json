@@ -50,5 +50,11 @@
     "fs": false,
     "os": false,
     "path": false
-  }
+  },
+  "builds": [
+    {
+      "src": "vercel-build.js",
+      "use": "@now/node"
+    }
+  ]
 }
